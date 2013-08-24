@@ -7,13 +7,8 @@ html, body {
     width: 100%;
     min-width: 1300px;
     /*background: rgba(255, 240, 141, 0.11);*/
-    background-image: url(../images/fon.jpg);
-    background-repeat: no-repeat;
-    background-position: 100% 100%;
-    background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -webkit-background-size: cover;
+    background-image: url(../images/ff.jpg);
+    background-repeat: repeat;
 }
 
 /*test*/
@@ -26,14 +21,40 @@ html, body {
 .header {
     width: 100%;
     height: 150px;
-    background: #993519;
+    background: rgba(153, 53, 25, 0.29);
 }
 
 .logo {
     width: 50%;
-    height: 115px;
+    height: 150px;
     float: left;
-    background: #57b8ff;
+    font-family: Arial, Comic Sans MS, serif;
+    font-weight: 400;
+    background: rgba(87, 184, 255, 0.22);
+}
+
+span.green {
+    font-size: 56px;
+    color: #930708;
+    position: relative;
+    top: 50px;
+    left: 120px;
+}
+
+span.tour {
+    font-size: 44px;
+    color: #1454b5;
+    position: relative;
+    top: 10px;
+    left: 76px;
+}
+
+span.com {
+    font-size: 26px;
+    color: #f5eeec;
+    position: relative;
+    top: 30px;
+    left: 60px;
 }
 
 .reg {
