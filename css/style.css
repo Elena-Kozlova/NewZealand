@@ -1,9 +1,9 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-html,body {
+html, body {
     width: 100%;
     min-width: 1300px;
     /*background: rgba(255, 240, 141, 0.11);*/
@@ -15,6 +15,8 @@ html,body {
     -o-background-size: cover;
     -webkit-background-size: cover;
 }
+
+/*test*/
 
 .main {
     width: 80%;
@@ -64,7 +66,7 @@ ul.menu {
     background-image: -ms-linear-gradient(#0aae05, #0a7705);
     background-image: -o-linear-gradient(#0aae05, #0a7705);
     background-image: linear-gradient(#0aae05, #0a7705);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4f4f4f', endColorstr='#2b2b2b', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#4f4f4f', endColorstr = '#2b2b2b', GradientType = 0);
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -103,6 +105,7 @@ ul.menu li:first-child a:hover {
     -moz-border-radius: 4px 0 0 4px;
     -o-border-radius: 4px 0 0 4px;
 }
+
 /*Выпадающее меню*/
 ul.menu li ul {
     display: none;
@@ -144,7 +147,8 @@ ul.menu li:hover ul li:first-child a:hover {
     -o-border-radius: 0;
 }
 
-.coll { /* index and page2*/
+.coll {
+    /* index and page2*/
     width: 100%;
     background: rgba(255, 0, 74, 0.24);
 }
@@ -178,6 +182,7 @@ ul.menu li:hover ul li:first-child a:hover {
 .tcontent {
     text-align: left;
 }
+
 /*
 .lcoll {
     width: ;
@@ -200,7 +205,6 @@ ul.menu li:hover ul li:first-child a:hover {
     background: rgba(13, 255, 17, 0.41);
 }
 
-
 #social {
     height: 48px;
     width: 26%;
@@ -211,14 +215,15 @@ ul.menu li:hover ul li:first-child a:hover {
 
 #social a:hover {
     background-color: transparent;
-    opacity:0.7;
+    opacity: 0.7;
 }
 
 #social img {
     -moz-transition: all 0.8s ease-in-out;
     -webkit-transition: all 0.8s ease-in-out;
     -o-transition: all 0.8s ease-in-out;
-    -ms-transition: all 0.8s ease-in-out; transition: all 0.8s ease-in-out;
+    -ms-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
 }
 
 #social img:hover {
