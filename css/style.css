@@ -170,6 +170,7 @@ ul.menu li:hover ul li:first-child a:hover {
 
 .coll {
     width: 100%;
+    min-height: 640px;
     background: rgba(153, 53, 25, 0.29);
 }
 
@@ -214,7 +215,6 @@ ul.menu li:hover ul li:first-child a:hover {
     background-image: url("../images/korrr.png");
     background-repeat: no-repeat;
     background-position: bottom right;
-
 }
 
 /*
