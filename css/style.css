@@ -169,9 +169,8 @@ ul.menu li:hover ul li:first-child a:hover {
 }
 
 .coll {
-    /* index and page2*/
     width: 100%;
-    background: rgba(255, 0, 74, 0.24);
+    background: rgba(153, 53, 25, 0.29);
 }
 
 .content_main {
@@ -208,13 +207,17 @@ ul.menu li:hover ul li:first-child a:hover {
 .lcoll {
     width: ;
     height: 530px;
-}
+}*/
 
 .ccoll {
-    width: ;
-    height: 530px;
+    width: 100%;
+    background-image: url("../images/korrr.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 }
 
+/*
 .rcoll {
     width: ;
     height: 530px;
